@@ -87,6 +87,3 @@ def print_indices(i, j, direction = 0):
         return [[i+k, j-k] for k in range(4)]
     else:
         return [[i+k, j+k] for k in range(4)]
-
-    
-        
