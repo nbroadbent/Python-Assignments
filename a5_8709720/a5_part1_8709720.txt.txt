@@ -1,0 +1,26 @@
+Part 1: Rough Analysis
+
+a)
+
+My function for 1a, largest_34(a) has a runtime of O(n).
+This is because it has a single for loop that runs n times, 
+where n is the length of the list, a, checking every element 
+in order to find the first 4 largest values in the list.
+
+b)
+
+The runtime of this function, largest_third(a), is O(n logn),
+because python's sort function is O(n logn).This function also
+uses the sum function, which would be O(n), but, O(n logn) is the
+runtime because O(n) is a subset of O(n logn).
+
+c)
+
+third_at_least(a) is two nested for loops, where the inner loop runs
+the length of a list l, that starts out empty, and the outer loop runs
+length n. The runtime is O(n^2).
+
+d)
+
+The runtime of function sum_tri(a, x) is O(n^3), because it has 3
+nested for loops, that each run n times. n*n*n = n^3.
